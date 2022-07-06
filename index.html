@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="bg-darkBlue">
+  <div class="flex items-center h-screen p-6 static">
+    <div class="max-w-xl bg-darkGrayishBlue p-10 mx-auto rounded-xl flex flex-col space-y-6 items-center text-center text-white">
+      <h3 class="text-neonGreen tracking-widest uppercase text-sm font-manrope">Advice #<span id="id"></span></h3>
+      <h1 class="text-2xl font-bold opacity-80" id="advice"></h1>
+      <div class="w-fit">
+        <img src="images/pattern-divider-desktop.svg" alt="" class="sm:inline hidden">
+        <img src="images/pattern-divider-mobile.svg" alt="" class="sm:hidden inline">
+      </div>
+      <div class="justify-center flex">
+        <div class="absolute mt-2" id="button">
+          <button class="inline rounded-full p-5 bg-neonGreen hover:shadow-glow ">
+          <img src="images/icon-dice.svg" alt="">
+          
+          </button>
+        </div>
+      </div>
+    
+      
+
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
